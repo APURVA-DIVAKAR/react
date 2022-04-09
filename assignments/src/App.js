@@ -2,6 +2,8 @@
 import './App.css';
 import Page from './day2/Counter'
 import Todo from './day2/Todo'
+import { List } from './day3/List';
+
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       {/* day2 assginment1 */}
        {/* <Page/> */}
        {/* day2 assginment2 */}
-       <Todo/>
+       {/* <Todo/> */}
+       <List/>
     </div>
   );
 }
